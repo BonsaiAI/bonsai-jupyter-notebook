@@ -6,7 +6,7 @@ Jupyter Notebooks are often used in the data science community to access, analyz
 
 Before you read this guide you will need to have successfully trained a BRAIN using either the [Quick Start][2] web guide or have [Run the Platform Locally][3]. This Jupyter Notebook will access information about the BRAINs you have trained, their training data, and their prediction results for you to work with an analyze.
 
-# What Are Jupyter Notebooks?
+## What Are Jupyter Notebooks?
 
 Notebook documents (or “notebooks”) are documents produced by the Jupyter Notebook App, which contain both computer code (e.g. python) and rich text elements (paragraph, equations, figures, links, etc...). Notebook documents are both human-readable documents containing the analysis description and the results (figures, tables, etc..) as well as executable documents which can be run to perform data analysis.
 
@@ -14,7 +14,7 @@ The Jupyter Notebook App is a server-client application that allows editing and 
 
 In addition to displaying/editing/running notebook documents, the Jupyter Notebook App has a “Dashboard” (Notebook Dashboard), a “control panel” showing local files and allowing to open notebook documents or shutting down their kernels.
 
-## Installing Jupyter Notebook
+### Installing Jupyter Notebook
 
 If you already have Anaconda installed, then you will already have the necessary package installed and can simply run `jupyter notebook` to access the Dashboard for the folder it's run in.
 
@@ -36,5 +36,5 @@ The comments and instructions inside of the Jupyter Notebook should be sufficien
 [3]: http://docs.bons.ai/guides/local-dev-guide.html
 [4]: https://jupyter.readthedocs.io/en/latest/install.html
 [5]: https://jupyter.readthedocs.io/en/latest/running.html
-[6]: ../references/api-reference.html
+[6]: http://docs.bons.ai/references/api-reference.html
 [7]: https://bons.ai/contact-us#contact-page-form
