@@ -27,6 +27,8 @@ If you already have Anaconda installed, then you will already have the necessary
 
 If you want to use `pip` to install Jupyter you can follow the installation and run instructions on the [Install][4] or [Running the Notebook][5] official Jupyter documentation.
 
+**Note:** Visualization rich tools like plotly may hit the default data rate limit of Jupyter Notebook. This can be solved by launching the Jupyter Notebook App by setting a higher data rate limit by starting it with `jupyter notebook --NotebookApp.iopub_data_rate_limit=1000000`.
+
 # Download Bonsai's API Notebook
 
 Download the `.ipynb` notebook file from this repo.
